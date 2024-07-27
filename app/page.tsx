@@ -11,7 +11,7 @@ import {
 } from "@tabler/icons-react";
 
 const GENERAL_NAV_ITEMS = [
-  { name: "About Me", link: "/" },
+  { name: "About", link: "/" },
   { name: "Resume", link: "/" },
   { name: "Experience", link: "/" },
   { name: "Contact", link: "/" },
@@ -20,17 +20,17 @@ const GENERAL_NAV_ITEMS = [
 const SOCIAL_NAV_ITEMS = [
   {
     name: "",
-    link: "/",
+    link: "https://github.com/vignesh-sivaprakasam",
     icon: <IconBrandGithub stroke={1} className="hover:text-cyan-400" />,
   },
   {
     name: "",
-    link: "/",
+    link: "https://www.linkedin.com/in/vignesh-m94/",
     icon: <IconBrandLinkedin stroke={1} className="hover:text-cyan-400" />,
   },
   {
     name: "",
-    link: "/",
+    link: "https://www.instagram.com/___vicky__m/",
     icon: <IconBrandInstagram stroke={1} className="hover:text-cyan-400" />,
   },
 ];
@@ -48,9 +48,6 @@ export default function Home() {
       </header>
       <main className="relative bg-black flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
         <div className="max-w-7xl w-full">
-          {/* <FloatingNav
-            navItems={[{ name: "Home", link: "/", icon: <FaHome /> }]}
-          /> */}
           <Hero />
         </div>
       </main>
