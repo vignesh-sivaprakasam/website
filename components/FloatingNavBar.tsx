@@ -18,7 +18,7 @@ const FloatingNavBar: React.FC<FloatingNavBarProps> = ({ navItems }) => {
         <Link
           key={`idx-${index}`}
           href={navItem.link}
-          className="flex justify-center items-center w-fit text-center px-2"
+          className="flex justify-center items-center w-fit text-center px-2 gap-2"
         >
           <span className="inline-block">{navItem.icon}</span>
           <span className="inline-block">{navItem.name}</span>

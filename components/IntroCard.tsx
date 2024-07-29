@@ -13,16 +13,20 @@ const IntroText = () => {
         I&apos;m passionate front end developer based out of Chennai, currently
         working with awesome folks at Twilio.
       </div>
-      <button className="bg-white text-black p-3 px-5 rounded-full w-fit font-medium zoom hover:bg-gray-200">
+      <a
+        className="bg-white text-black p-3 px-5 rounded-full w-fit font-medium zoom hover:bg-gray-200"
+        href="/assets/vignesh-resume.pdf"
+        target="_blank"
+      >
         Download CV
-      </button>
+      </a>
     </div>
   );
 };
 
 const Photo = () => {
   return (
-    <div className="flex-1 flex justify-center">
+    <div className="flex-1 flex justify-center mb-10">
       <Image
         src="/photo.jpg"
         width={300}
@@ -36,9 +40,9 @@ const Photo = () => {
 
 const IntroCard = () => {
   return (
-    <div className="relative flex">
-      <IntroText />
+    <div className="relative flex flex-col md:flex-row">
       <Photo />
+      <IntroText />
     </div>
   );
 };

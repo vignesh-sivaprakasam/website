@@ -7,7 +7,7 @@ import IntroCard from "./IntroCard";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36 px-20">
+    <div className="mx-auto">
       <IntroCard />
       {/* <div className="flex justify-center relative my-20 z-10">
         <div className="mx-w-[90vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
