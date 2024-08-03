@@ -28,7 +28,7 @@ const Photo = () => {
   return (
     <div className="flex-1 flex justify-center mb-10">
       <Image
-        src="/photo.jpg"
+        src="/assets/photo.jpg"
         width={300}
         height={300}
         className="rounded-full"

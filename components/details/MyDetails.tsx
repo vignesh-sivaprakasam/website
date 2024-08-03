@@ -1,16 +1,8 @@
 import { BentoGrid, BentoGridItem } from "../ui/BentoGrid";
 
-import { DetailsCard } from "./DetailsCard";
 import { MySkills } from "./MySkills";
 import { AboutMe } from "./AboutMe";
-
-const Experience = () => {
-  return (
-    <DetailsCard title="Experience">
-      <>My experience</>
-    </DetailsCard>
-  );
-};
+import { Experience } from "./Experience";
 
 export const MyDetails = () => {
   const gridClasses = "grid-cols-3 grid-rows-5 gap-8";

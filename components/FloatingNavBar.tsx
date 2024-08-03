@@ -13,7 +13,7 @@ interface FloatingNavBarProps {
 
 const FloatingNavBar: React.FC<FloatingNavBarProps> = ({ navItems }) => {
   return (
-    <nav className="inline-flex px-3 py-2 rounded-full relative bg-gray-800/80">
+    <nav className="inline-flex px-3 text-sm py-2 rounded-full relative bg-gray-800/80">
       {navItems.map((navItem: NavItem, index: number) => (
         <Link
           key={`idx-${index}`}
