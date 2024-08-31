@@ -37,12 +37,10 @@ const SOCIAL_NAV_ITEMS = [
 ];
 
 const NavBar = () => (
-  <header className="absolute top-8 z-10 w-full">
-    <div className="flex justify-end mr-32">
+  <header className="relative mb-8 mt-8 z-10 w-full">
+    <div className="flex flex-col items-center justify-end gap-3 sm:mr-32 sm:flex-row">
       <FloatNav navItems={GENERAL_NAV_ITEMS} />
-      <span className="ml-10">
-        <FloatNav navItems={SOCIAL_NAV_ITEMS} />
-      </span>
+      <FloatNav navItems={SOCIAL_NAV_ITEMS} />
     </div>
   </header>
 );
