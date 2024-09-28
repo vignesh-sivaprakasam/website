@@ -23,7 +23,7 @@ const Grid: React.FC<GridProps> = ({ id, items }) => {
             spareImg,
           }) => (
             <BentoGridItem
-              id={id}
+              id={"" + id}
               key={id}
               title={title}
               description={description}
